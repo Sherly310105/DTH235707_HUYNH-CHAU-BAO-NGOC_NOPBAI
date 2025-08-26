@@ -1,0 +1,29 @@
+#Chương trình tính tổng hai số
+
+#Nhập hai số từ bàn phím
+so1 = int(input("Nhập số thứ nhất: "))
+so2 = int(input("Nhập số thứ hai: "))
+
+#Tính tổng
+tong = so1 + so2
+
+print("Tổng hai số là: ",tong)
+
+#Nhập Tên
+name = input("Nhập tên của bạn: ")
+print("Xin chào",name)
+
+#Xuất tên tuổi chiều cao
+name = "John"
+age = 25
+height = 1.75
+print("Tên: ",name)
+print("Tuổi: ",age)
+print("Chiều cao: ",height)
+
+#Tính căn bậc 2
+import math
+number = 16
+square_root = math.sqrt(number)
+
+print("Căn bậc hai của", number ,"là ",square_root)
